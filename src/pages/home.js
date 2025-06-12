@@ -53,7 +53,9 @@ const Home = () => {
             <li>Trusted by thousands across the nation.</li>
           </ul>
         </div>
-        <div className='section2'>
+       
+      </div>
+       <div className='section2'>
           <div className='cards'>
             <img src='https://paymanfintech.in/images/commition%20199x%20199.png'></img>
            <div>
@@ -77,7 +79,6 @@ const Home = () => {
             <p>Smart Pay is 100% Trustable With the Mutual Cooperation & Transparency</p></div>
           </div>
           </div>
-      </div>
       <div className='section3'>
         <h2>Our Services</h2>
         <p>At <b>PAYMAN</b>, we give not just the Best but Legendary satisfaction to our

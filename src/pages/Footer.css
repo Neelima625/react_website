@@ -78,3 +78,69 @@
 .footer-copyright p {
   margin: 0;
 }
+@media (max-width: 768px) {
+  .footer {
+    padding: 25px 10px 10px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    gap: 15px;
+  }
+  
+  .footer-section {
+    flex: 1 1 100%;
+  }
+  
+  .footer-section h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  
+  .footer-section p,
+  .footer-section a,
+  .footer-section li {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.75rem;
+  }
+  
+  .footer-copyright {
+    padding: 10px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 8px 8px;
+  }
+  
+  .footer-section h3 {
+    font-size: 0.95rem;
+  }
+  
+  .footer-section h4 {
+    font-size: 0.9rem;
+  }
+  
+  .footer-section p,
+  .footer-section a,
+  .footer-section li {
+    font-size: 0.75rem;
+  }
+  
+  .footer-bottom,
+  .footer-copyright {
+    font-size: 0.7rem;
+  }
+}

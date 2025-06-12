@@ -6,7 +6,10 @@
   gap: 40px;
   flex-wrap: wrap;
 }
-
+*{
+    padding: 0px;
+    margin:0px ;
+}
 .reverse {
   flex-direction: row-reverse;
 }
@@ -231,4 +234,28 @@ border-radius: 100%;
 .payment-logos img:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 700px) {
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+  background-color: #f4f8fb; /* light bluish bg */
+}
+.cards {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+ margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cards img{
+    width: 50px;
+}
 }

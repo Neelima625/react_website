@@ -1,0 +1,33 @@
+/* Navbar2.css */
+.navbar2-container {
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color: rgba(24, 24, 24, 0.901);
+  font-size: large;
+}
+
+.navbar2 a.active {
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white !important;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
